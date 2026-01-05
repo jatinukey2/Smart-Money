@@ -1,14 +1,14 @@
-# 💼 Wallet Smart Contract
+# 💼 Smart Money
 
 ## 📌 Overview
-This project implements a **Wallet Smart Contract** that allows users to deposit ETH, check the contract balance, and withdraw ETH either to themselves or to a specified address.
+This project implements **Smart Money** functionality that allows users to deposit ETH, check the balance, and withdraw ETH either to their own address or to a specified address on the Ethereum blockchain.
 
 ---
 
 ## ⚙️ Features
-- Deposit ETH into the smart contract  
-- Check total ETH balance stored in the contract  
-- Withdraw all ETH to caller’s address  
+- Deposit ETH into Smart Money  
+- Check total ETH balance stored  
+- Withdraw all ETH to the caller’s address  
 - Withdraw all ETH to a given address  
 
 ---
@@ -23,7 +23,7 @@ This project implements a **Wallet Smart Contract** that allows users to deposit
 
 ## 🚀 How to Use
 
-### 1️⃣ Deploy Contract
+### 1️⃣ Deploy
 - Open Remix IDE  
 - Compile `Wallet.sol`  
 - Deploy using MetaMask  
@@ -43,21 +43,22 @@ This project implements a **Wallet Smart Contract** that allows users to deposit
 
 ### 4️⃣ Withdraw ETH
 - `withdrawAll()` → withdraw to your address  
-- `withToAddress(address)` → withdraw to specified address  
+- `withToAddress(address)` → withdraw to a specified address  
 
 ---
 
 ## 🔐 Notes
-- Any user can withdraw funds
-- Entire contract balance is transferred
-- Designed for learning and academic purposes
+- Any user can withdraw funds  
+- Entire balance is transferred during withdrawal  
+- Designed for learning and academic purposes  
 
 ---
 
 ## 👨‍💻 Author
-Jatin Ukey
+Jatin Ukey  
 
 ---
 
 ## 📎 License
 MIT License
+0
